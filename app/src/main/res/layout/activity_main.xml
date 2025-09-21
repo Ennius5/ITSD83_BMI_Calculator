@@ -144,4 +144,22 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.13" />
 
+    <TextView
+        android:id="@+id/next_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/prev_category"
+        app:layout_constraintStart_toStartOf="@+id/prev_category"
+        app:layout_constraintTop_toBottomOf="@+id/prev_category" />
+
+    <TextView
+        android:id="@+id/prev_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bmi_category"
+        app:layout_constraintStart_toStartOf="@+id/bmi_category"
+        app:layout_constraintTop_toBottomOf="@+id/bmi_category" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
